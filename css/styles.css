@@ -64,6 +64,7 @@ ol {
 
 .hero {
     text-align: center;
+    background-color: #2e2f42;
 }
 
 .hero-title {
@@ -73,7 +74,6 @@ ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    background-color: #2e2f42;
 }
 
 .hero-button {
