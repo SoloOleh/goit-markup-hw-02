@@ -11,11 +11,6 @@ footer a {
     text-decoration: none;
 }
 
-ul,
-ol {
-    list-style-type: none;
-}
-
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -50,11 +45,17 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+}
+
+ul,
+ol {
+    list-style-type: none;
 }
 
 .hero {
@@ -112,8 +113,89 @@ ol {
     letter-spacing: 0.02em;
 }
 
+.team {
+    font-family: "Roboto", sans-serif;
+    background: #f4f4fd;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+.team-member {
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.portfolio {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portfolio-list {
+    list-style-type: none;
+}
+
+.portfolio-item {
+    list-style-type: none;
+}
+
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.portfolio-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
 .footer {
     background: #2e2f42;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
 
@@ -123,4 +205,8 @@ ol {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.header-address {
+    font-style: normal;
 }
