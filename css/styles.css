@@ -11,6 +11,10 @@ footer a {
     text-decoration: none;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,7 +25,7 @@ footer a {
     color: #4d5ae5;
 }
 
-.logo-text {
+.logo-text-header {
     color: #2e2f42;
 }
 
@@ -179,8 +183,4 @@ ol {
 
 .footer-text {
     letter-spacing: 0.02em;
-}
-
-.header-address {
-    font-style: normal;
 }
