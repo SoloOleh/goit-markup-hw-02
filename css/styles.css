@@ -21,8 +21,15 @@ footer a {
     color: #4d5ae5;
 }
 
+.logo-text {
+    color: #2e2f42;
+}
+
+.logo-text-footer {
+    color: #f4f4fd;
+}
+
 .nav-link {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -60,7 +67,6 @@ ol {
 }
 
 .hero-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -85,12 +91,7 @@ ol {
 }
 
 .features {
-    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
-}
-
-.feature-item {
-    list-style-type: none;
 }
 
 .feature-title {
@@ -102,7 +103,6 @@ ol {
 }
 
 .feature-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
@@ -110,7 +110,6 @@ ol {
 }
 
 .team {
-    font-family: "Roboto", sans-serif;
     background: #f4f4fd;
     letter-spacing: 0.02em;
     text-align: center;
@@ -125,12 +124,7 @@ ol {
     text-transform: capitalize;
 }
 
-.team-list {
-    list-style-type: none;
-}
-
 .team-member {
-    list-style-type: none;
     background-color: #FFFFFF;
 }
 
@@ -143,14 +137,12 @@ ol {
 }
 
 .team-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
 }
 
 .portfolio {
-    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
 }
 
@@ -164,14 +156,6 @@ ol {
     text-transform: capitalize;
 }
 
-.portfolio-list {
-    list-style-type: none;
-}
-
-.portfolio-item {
-    list-style-type: none;
-}
-
 .portfolio-name {
     font-weight: 500;
     font-size: 20px;
@@ -180,7 +164,6 @@ ol {
 }
 
 .portfolio-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
@@ -188,7 +171,6 @@ ol {
 
 .footer {
     background: #2e2f42;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -196,10 +178,6 @@ ol {
 }
 
 .footer-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
