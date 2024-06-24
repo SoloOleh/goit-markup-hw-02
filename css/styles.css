@@ -119,7 +119,7 @@ ol {
     text-align: center;
 }
 
-.team-our {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -165,12 +165,14 @@ ol {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-type {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 .footer {
