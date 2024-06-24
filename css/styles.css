@@ -22,7 +22,7 @@
 
 body {
     font-family: var(--first-family);
-    color: var(--navy-blue);
+    color: var(--slate);
     background-color: var(--white);
 }
 
@@ -31,7 +31,7 @@ footer a {
     text-decoration: none;
 }
 
-.logo-link-1 {
+.logo-link {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
@@ -41,15 +41,11 @@ footer a {
     color: var(--iris);
 }
 
-.logo-link-2 {
+.logo-text {
     color: var(--navy-blue);
 }
 
-.logo-link-3 {
-    color: var(--cloud);
-}
-
-.nav-link a {
+.nav-link {
     font-family: var(--first-family);
     font-weight: 500;
     font-size: 16px;
@@ -58,9 +54,9 @@ footer a {
     color: var(--navy-blue);
 }
 
-.nav-link a:hover,
-.nav-link a:focus {
-    color: var(--iris);
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--ocean);
 }
 
 .address-link {
@@ -69,11 +65,12 @@ footer a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    font-style: normal;
 }
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--iris);
+    color: var(--ocean);
 }
 
 ul,
@@ -82,12 +79,15 @@ ol {
 }
 
 .hero {
+    text-align: center;
+}
+
+.hero-title {
     font-family: var(--first-family);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--white);
     background-color: var(--navy-blue);
 }
@@ -113,14 +113,18 @@ ol {
     letter-spacing: 0.02em;
 }
 
-.features-title {
+.feature-item {
+    list-style-type: none;
+}
+
+.feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--navy-blue);
 }
 
-.features-text {
+.feature-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -138,10 +142,18 @@ ol {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    color: var (--navy-blue);
+    color: var(--navy-blue);
+}
+
+.team-list {
+    list-style-type: none;
 }
 
 .team-member {
+    list-style-type: none;
+}
+
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -168,6 +180,14 @@ ol {
     color: var(--navy-blue);
 }
 
+.portfolio-list {
+    list-style-type: none;
+}
+
+.portfolio-item {
+    list-style-type: none;
+}
+
 .portfolio-name {
     font-weight: 500;
     font-size: 20px;
@@ -182,11 +202,19 @@ ol {
     color: var(--slate);
 }
 
-footer {
+.footer {
     background: var(--navy-blue);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
+}
+
+.footer-text {
+    font-family: var(--first-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
